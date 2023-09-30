@@ -1,0 +1,204 @@
+# Problem based on RDM Simulator
+#
+
+discount: 0.9
+values: reward
+states: S1 S2 S3 S4 S5 S6 S7 S8
+actions: MST RT
+observations: ANL_L ANL_M ANL_H
+
+T: MST : S1 : S1 0.7371
+T: MST : S1 : S2 0.0819
+T: MST : S1 : S3 0.0729
+T: MST : S1 : S4 0.0081
+T: MST : S1 : S5 0.0819
+T: MST : S1 : S6 0.0091
+T: MST : S1 : S7 0.0081
+T: MST : S1 : S8 0.0009
+T: MST : S2 : S1 0.69564
+T: MST : S2 : S2 0.12276
+T: MST : S2 : S3 0.05236
+T: MST : S2 : S4 0.00924
+T: MST : S2 : S5 0.09486
+T: MST : S2 : S6 0.01674
+T: MST : S2 : S7 0.00714
+T: MST : S2 : S8 0.00126
+T: MST : S3 : S1 0.753296
+T: MST : S3 : S2 0.065504
+T: MST : S3 : S3 0.093104
+T: MST : S3 : S4 0.008096
+T: MST : S3 : S5 0.065504
+T: MST : S3 : S6 0.005696
+T: MST : S3 : S7 0.008096
+T: MST : S3 : S8 0.000704
+T: MST : S4 : S1 0.71253
+T: MST : S4 : S2 0.10647
+T: MST : S4 : S3 0.07047
+T: MST : S4 : S4 0.01053
+T: MST : S4 : S5 0.07917
+T: MST : S4 : S6 0.01183
+T: MST : S4 : S7 0.00783
+T: MST : S4 : S8 0.00117
+T: MST : S5 : S1 0.69564
+T: MST : S5 : S2 0.09486
+T: MST : S5 : S3 0.05236
+T: MST : S5 : S4 0.00714
+T: MST : S5 : S5 0.12276
+T: MST : S5 : S6 0.01674
+T: MST : S5 : S7 0.00924
+T: MST : S5 : S8 0.00126
+T: MST : S6 : S1 0.654455
+T: MST : S6 : S2 0.134045
+T: MST : S6 : S3 0.034445
+T: MST : S6 : S4 0.007055
+T: MST : S6 : S5 0.134045
+T: MST : S6 : S6 0.027455
+T: MST : S6 : S7 0.007055
+T: MST : S6 : S8 0.001445
+T: MST : S7 : S1 0.71253
+T: MST : S7 : S2 0.07917
+T: MST : S7 : S3 0.07047
+T: MST : S7 : S4 0.00783
+T: MST : S7 : S5 0.10647
+T: MST : S7 : S6 0.01183
+T: MST : S7 : S7 0.01053
+T: MST : S7 : S8 0.00117
+T: MST : S8 : S1 0.671925
+T: MST : S8 : S2 0.118575
+T: MST : S8 : S3 0.050575
+T: MST : S8 : S4 0.008925
+T: MST : S8 : S5 0.118575
+T: MST : S8 : S6 0.020925
+T: MST : S8 : S7 0.008925
+T: MST : S8 : S8 0.001575
+T: RT : S1 : S1 0.66994
+T: RT : S1 : S2 0.14706
+T: RT : S1 : S3 0.03526
+T: RT : S1 : S4 0.00774
+T: RT : S1 : S5 0.10906
+T: RT : S1 : S6 0.02394
+T: RT : S1 : S7 0.00574
+T: RT : S1 : S8 0.00126
+T: RT : S2 : S1 0.6111
+T: RT : S2 : S2 0.2037
+T: RT : S2 : S3 0.0189
+T: RT : S2 : S4 0.0063
+T: RT : S2 : S5 0.1164
+T: RT : S2 : S6 0.0388
+T: RT : S2 : S7 0.0036
+T: RT : S2 : S8 0.0012
+T: RT : S3 : S1 0.687456
+T: RT : S3 : S2 0.130944
+T: RT : S3 : S3 0.051744
+T: RT : S3 : S4 0.009856
+T: RT : S3 : S5 0.093744
+T: RT : S3 : S6 0.017856
+T: RT : S3 : S7 0.007056
+T: RT : S3 : S8 0.001344
+T: RT : S4 : S1 0.62909
+T: RT : S4 : S2 0.18791
+T: RT : S4 : S3 0.03311
+T: RT : S4 : S4 0.00989
+T: RT : S4 : S5 0.10241
+T: RT : S4 : S6 0.03059
+T: RT : S4 : S7 0.00539
+T: RT : S4 : S8 0.00161
+T: RT : S5 : S1 0.56648
+T: RT : S5 : S2 0.14162
+T: RT : S5 : S3 0.01752
+T: RT : S5 : S4 0.00438
+T: RT : S5 : S5 0.20952
+T: RT : S5 : S6 0.05238
+T: RT : S5 : S7 0.00648
+T: RT : S5 : S8 0.00162
+T: RT : S6 : S1 0.513117
+T: RT : S6 : S2 0.189783
+T: RT : S6 : S3 0.005183
+T: RT : S6 : S4 0.001917
+T: RT : S6 : S5 0.209583
+T: RT : S6 : S6 0.077517
+T: RT : S6 : S7 0.002117
+T: RT : S6 : S8 0.000783
+T: RT : S7 : S1 0.58425
+T: RT : S7 : S2 0.12825
+T: RT : S7 : S3 0.03075
+T: RT : S7 : S4 0.00675
+T: RT : S7 : S5 0.19475
+T: RT : S7 : S6 0.04275
+T: RT : S7 : S7 0.01025
+T: RT : S7 : S8 0.00225
+T: RT : S8 : S1 0.531075
+T: RT : S8 : S2 0.177025
+T: RT : S8 : S3 0.016425
+T: RT : S8 : S4 0.005475
+T: RT : S8 : S5 0.196425
+T: RT : S8 : S6 0.065475
+T: RT : S8 : S7 0.006075
+T: RT : S8 : S8 0.002025
+
+O: MST : S1 : ANL_L 0.06
+O: MST : S1 : ANL_M 0.16
+O: MST : S1 : ANL_H 0.78
+O: MST : S2 : ANL_L 0.12
+O: MST : S2 : ANL_M 0.20
+O: MST : S2 : ANL_H 0.68
+O: MST : S3 : ANL_L 0.06
+O: MST : S3 : ANL_M 0.16
+O: MST : S3 : ANL_H 0.78
+O: MST : S4 : ANL_L 0.12
+O: MST : S4 : ANL_M 0.20
+O: MST : S4 : ANL_H 0.68
+O: MST : S5 : ANL_L 0.06
+O: MST : S5 : ANL_M 0.16
+O: MST : S5 : ANL_H 0.78
+O: MST : S6 : ANL_L 0.12
+O: MST : S6 : ANL_M 0.20
+O: MST : S6 : ANL_H 0.68
+O: MST : S7 : ANL_L 0.06
+O: MST : S7 : ANL_M 0.16
+O: MST : S7 : ANL_H 0.78
+O: MST : S8 : ANL_L 0.12
+O: MST : S8 : ANL_M 0.20
+O: MST : S8 : ANL_H 0.68
+O: RT : S1 : ANL_L 0.05
+O: RT : S1 : ANL_M 0.15
+O: RT : S1 : ANL_H 0.80
+O: RT : S2 : ANL_L 0.10
+O: RT : S2 : ANL_M 0.18
+O: RT : S2 : ANL_H 0.72
+O: RT : S3 : ANL_L 0.05
+O: RT : S3 : ANL_M 0.15
+O: RT : S3 : ANL_H 0.80
+O: RT : S4 : ANL_L 0.10
+O: RT : S4 : ANL_M 0.18
+O: RT : S4 : ANL_H 0.72
+O: RT : S5 : ANL_L 0.05
+O: RT : S5 : ANL_M 0.15
+O: RT : S5 : ANL_H 0.80
+O: RT : S6 : ANL_L 0.10
+O: RT : S6 : ANL_M 0.18
+O: RT : S6 : ANL_H 0.72
+O: RT : S7 : ANL_L 0.05
+O: RT : S7 : ANL_M 0.15
+O: RT : S7 : ANL_H 0.80
+O: RT : S8 : ANL_L 0.10
+O: RT : S8 : ANL_M 0.18
+O: RT : S8 : ANL_H 0.72
+
+R: MST : S1 : * : * 39.0
+R: MST : S2 : * : * 40.0
+R: MST : S3 : * : * 38.0
+R: MST : S4 : * : * 16.0
+R: MST : S5 : * : * 43.0
+R: MST : S6 : * : * 28.0
+R: MST : S7 : * : * 13.0
+R: MST : S8 : * : * 1.0
+
+R: RT : S1 : * : * 43.0
+R: RT : S2 : * : * 31.0
+R: RT : S3 : * : * 28.0
+R: RT : S4 : * : * 26.0
+R: RT : S5 : * : * 28.0
+R: RT : S6 : * : * 16.0
+R: RT : S7 : * : * 23.0
+R: RT : S8 : * : * 11.0

@@ -1,0 +1,1411 @@
+{
+ "0": {
+  "Scenario": 2,
+  "Seed": 380843,
+  "Writing times bandwidths": 3000.0,
+  "Active link threshold": 90.0,
+  "Bandwidth consumption threshold": 4050.0,
+  "Values per timestep": {
+   "0": {
+    "Selected topology": "MST",
+    "Time to write data": 0,
+    "Active links": 0,
+    "Bandwidths consumption": 0,
+    "Deviation": 0
+   },
+   "1": {
+    "Selected topology": "RT",
+    "Time to write data": 1794.0,
+    "Active links": 138,
+    "Bandwidths consumption": 4882.44,
+    "Deviation": 0
+   },
+   "2": {
+    "Selected topology": "MST",
+    "Time to write data": 2835.0,
+    "Active links": 189,
+    "Bandwidths consumption": 5481.0,
+    "Deviation": 0
+   },
+   "3": {
+    "Selected topology": "MST",
+    "Time to write data": 495.0,
+    "Active links": 33,
+    "Bandwidths consumption": 726.0,
+    "Deviation": 0
+   },
+   "4": {
+    "Selected topology": "RT",
+    "Time to write data": 2268.0,
+    "Active links": 162,
+    "Bandwidths consumption": 5103.0,
+    "Deviation": 0
+   },
+   "5": {
+    "Selected topology": "MST",
+    "Time to write data": 2376.0,
+    "Active links": 132,
+    "Bandwidths consumption": 2772.0,
+    "Deviation": 0
+   },
+   "6": {
+    "Selected topology": "MST",
+    "Time to write data": 756.0,
+    "Active links": 54,
+    "Bandwidths consumption": 1242.0,
+    "Deviation": 0
+   },
+   "7": {
+    "Selected topology": "RT",
+    "Time to write data": 2601.0,
+    "Active links": 153,
+    "Bandwidths consumption": 4443.12,
+    "Deviation": 0
+   },
+   "8": {
+    "Selected topology": "MST",
+    "Time to write data": 1620.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2160.0,
+    "Deviation": 0
+   },
+   "9": {
+    "Selected topology": "MST",
+    "Time to write data": 2205.0,
+    "Active links": 147,
+    "Bandwidths consumption": 3381.0,
+    "Deviation": 0
+   },
+   "10": {
+    "Selected topology": "MST",
+    "Time to write data": 1584.0,
+    "Active links": 99,
+    "Bandwidths consumption": 2376.0,
+    "Deviation": 0
+   },
+   "11": {
+    "Selected topology": "MST",
+    "Time to write data": 2346.0,
+    "Active links": 138,
+    "Bandwidths consumption": 3036.0,
+    "Deviation": 0
+   },
+   "12": {
+    "Selected topology": "MST",
+    "Time to write data": 456.0,
+    "Active links": 24,
+    "Bandwidths consumption": 624.0,
+    "Deviation": 0
+   },
+   "13": {
+    "Selected topology": "RT",
+    "Time to write data": 1848.0,
+    "Active links": 132,
+    "Bandwidths consumption": 3575.88,
+    "Deviation": 0
+   },
+   "14": {
+    "Selected topology": "MST",
+    "Time to write data": 1620.0,
+    "Active links": 90,
+    "Bandwidths consumption": 1980.0,
+    "Deviation": 0
+   },
+   "15": {
+    "Selected topology": "RT",
+    "Time to write data": 1950.0,
+    "Active links": 150,
+    "Bandwidths consumption": 5394.0,
+    "Deviation": 0
+   },
+   "16": {
+    "Selected topology": "MST",
+    "Time to write data": 1677.0,
+    "Active links": 129,
+    "Bandwidths consumption": 2967.0,
+    "Deviation": 0
+   },
+   "17": {
+    "Selected topology": "MST",
+    "Time to write data": 1215.0,
+    "Active links": 81,
+    "Bandwidths consumption": 1944.0,
+    "Deviation": 0
+   },
+   "18": {
+    "Selected topology": "RT",
+    "Time to write data": 2394.0,
+    "Active links": 126,
+    "Bandwidths consumption": 3200.4,
+    "Deviation": 0
+   },
+   "19": {
+    "Selected topology": "MST",
+    "Time to write data": 1920.0,
+    "Active links": 120,
+    "Bandwidths consumption": 2640.0,
+    "Deviation": 0
+   },
+   "20": {
+    "Selected topology": "MST",
+    "Time to write data": 1620.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2610.0,
+    "Deviation": 0
+   },
+   "21": {
+    "Selected topology": "RT",
+    "Time to write data": 510.0,
+    "Active links": 30,
+    "Bandwidths consumption": 937.5,
+    "Deviation": 0
+   },
+   "22": {
+    "Selected topology": "RT",
+    "Time to write data": 1947.0,
+    "Active links": 177,
+    "Bandwidths consumption": 4711.74,
+    "Deviation": 0
+   },
+   "23": {
+    "Selected topology": "MST",
+    "Time to write data": 2736.0,
+    "Active links": 171,
+    "Bandwidths consumption": 4617.0,
+    "Deviation": 0
+   },
+   "24": {
+    "Selected topology": "MST",
+    "Time to write data": 570.0,
+    "Active links": 57,
+    "Bandwidths consumption": 1197.0,
+    "Deviation": 0
+   },
+   "25": {
+    "Selected topology": "RT",
+    "Time to write data": 1728.0,
+    "Active links": 144,
+    "Bandwidths consumption": 4608.0,
+    "Deviation": 0
+   },
+   "26": {
+    "Selected topology": "MST",
+    "Time to write data": 1617.0,
+    "Active links": 147,
+    "Bandwidths consumption": 3822.0,
+    "Deviation": 0
+   },
+   "27": {
+    "Selected topology": "MST",
+    "Time to write data": 1596.0,
+    "Active links": 84,
+    "Bandwidths consumption": 1764.0,
+    "Deviation": 0
+   },
+   "28": {
+    "Selected topology": "RT",
+    "Time to write data": 1500.0,
+    "Active links": 150,
+    "Bandwidths consumption": 4320.0,
+    "Deviation": 0
+   },
+   "29": {
+    "Selected topology": "MST",
+    "Time to write data": 1056.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2592.0,
+    "Deviation": 0
+   },
+   "30": {
+    "Selected topology": "MST",
+    "Time to write data": 450.0,
+    "Active links": 30,
+    "Bandwidths consumption": 750.0,
+    "Deviation": 0
+   },
+   "31": {
+    "Selected topology": "RT",
+    "Time to write data": 1260.0,
+    "Active links": 105,
+    "Bandwidths consumption": 2910.6,
+    "Deviation": 0
+   },
+   "32": {
+    "Selected topology": "MST",
+    "Time to write data": 1989.0,
+    "Active links": 153,
+    "Bandwidths consumption": 3519.0,
+    "Deviation": 0
+   },
+   "33": {
+    "Selected topology": "MST",
+    "Time to write data": 765.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1377.0,
+    "Deviation": 0
+   },
+   "34": {
+    "Selected topology": "RT",
+    "Time to write data": 1680.0,
+    "Active links": 168,
+    "Bandwidths consumption": 4099.2,
+    "Deviation": 0
+   },
+   "35": {
+    "Selected topology": "MST",
+    "Time to write data": 1710.0,
+    "Active links": 171,
+    "Bandwidths consumption": 4959.0,
+    "Deviation": 0
+   },
+   "36": {
+    "Selected topology": "MST",
+    "Time to write data": 540.0,
+    "Active links": 45,
+    "Bandwidths consumption": 1170.0,
+    "Deviation": 0
+   },
+   "37": {
+    "Selected topology": "RT",
+    "Time to write data": 765.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1542.75,
+    "Deviation": 0
+   },
+   "38": {
+    "Selected topology": "RT",
+    "Time to write data": 1521.0,
+    "Active links": 117,
+    "Bandwidths consumption": 3114.54,
+    "Deviation": 0
+   },
+   "39": {
+    "Selected topology": "MST",
+    "Time to write data": 1755.0,
+    "Active links": 117,
+    "Bandwidths consumption": 2808.0,
+    "Deviation": 0
+   },
+   "40": {
+    "Selected topology": "MST",
+    "Time to write data": 2016.0,
+    "Active links": 168,
+    "Bandwidths consumption": 4032.0,
+    "Deviation": 0
+   },
+   "41": {
+    "Selected topology": "MST",
+    "Time to write data": 507.0,
+    "Active links": 39,
+    "Bandwidths consumption": 819.0,
+    "Deviation": 0
+   },
+   "42": {
+    "Selected topology": "RT",
+    "Time to write data": 1932.0,
+    "Active links": 138,
+    "Bandwidths consumption": 4791.36,
+    "Deviation": 0
+   },
+   "43": {
+    "Selected topology": "MST",
+    "Time to write data": 2652.0,
+    "Active links": 156,
+    "Bandwidths consumption": 4212.0,
+    "Deviation": 0
+   },
+   "44": {
+    "Selected topology": "MST",
+    "Time to write data": 1824.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2304.0,
+    "Deviation": 0
+   },
+   "45": {
+    "Selected topology": "MST",
+    "Time to write data": 1617.0,
+    "Active links": 147,
+    "Bandwidths consumption": 3969.0,
+    "Deviation": 0
+   },
+   "46": {
+    "Selected topology": "MST",
+    "Time to write data": 1767.0,
+    "Active links": 93,
+    "Bandwidths consumption": 2325.0,
+    "Deviation": 0
+   },
+   "47": {
+    "Selected topology": "MST",
+    "Time to write data": 1638.0,
+    "Active links": 117,
+    "Bandwidths consumption": 2691.0,
+    "Deviation": 0
+   },
+   "48": {
+    "Selected topology": "MST",
+    "Time to write data": 546.0,
+    "Active links": 39,
+    "Bandwidths consumption": 819.0,
+    "Deviation": 0
+   },
+   "49": {
+    "Selected topology": "RT",
+    "Time to write data": 540.0,
+    "Active links": 36,
+    "Bandwidths consumption": 1325.88,
+    "Deviation": 0
+   },
+   "50": {
+    "Selected topology": "RT",
+    "Time to write data": 1767.0,
+    "Active links": 93,
+    "Bandwidths consumption": 2519.37,
+    "Deviation": 0
+   },
+   "51": {
+    "Selected topology": "MST",
+    "Time to write data": 2280.0,
+    "Active links": 120,
+    "Bandwidths consumption": 3000.0,
+    "Deviation": 0
+   },
+   "52": {
+    "Selected topology": "MST",
+    "Time to write data": 2109.0,
+    "Active links": 111,
+    "Bandwidths consumption": 3108.0,
+    "Deviation": 0
+   },
+   "53": {
+    "Selected topology": "MST",
+    "Time to write data": 1452.0,
+    "Active links": 132,
+    "Bandwidths consumption": 3564.0,
+    "Deviation": 0
+   },
+   "54": {
+    "Selected topology": "MST",
+    "Time to write data": 1311.0,
+    "Active links": 69,
+    "Bandwidths consumption": 1380.0,
+    "Deviation": 0
+   },
+   "55": {
+    "Selected topology": "RT",
+    "Time to write data": 390.0,
+    "Active links": 30,
+    "Bandwidths consumption": 800.1,
+    "Deviation": 0
+   },
+   "56": {
+    "Selected topology": "RT",
+    "Time to write data": 2700.0,
+    "Active links": 150,
+    "Bandwidths consumption": 4680.0,
+    "Deviation": 0
+   },
+   "57": {
+    "Selected topology": "MST",
+    "Time to write data": 2508.0,
+    "Active links": 132,
+    "Bandwidths consumption": 2640.0,
+    "Deviation": 0
+   },
+   "58": {
+    "Selected topology": "MST",
+    "Time to write data": 1404.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2808.0,
+    "Deviation": 0
+   },
+   "59": {
+    "Selected topology": "MST",
+    "Time to write data": 1908.0,
+    "Active links": 159,
+    "Bandwidths consumption": 4452.0,
+    "Deviation": 0
+   },
+   "60": {
+    "Selected topology": "MST",
+    "Time to write data": 936.0,
+    "Active links": 78,
+    "Bandwidths consumption": 1872.0,
+    "Deviation": 0
+   },
+   "61": {
+    "Selected topology": "RT",
+    "Time to write data": 1344.0,
+    "Active links": 84,
+    "Bandwidths consumption": 2857.68,
+    "Deviation": 0
+   },
+   "62": {
+    "Selected topology": "RT",
+    "Time to write data": 2550.0,
+    "Active links": 150,
+    "Bandwidths consumption": 3993.0,
+    "Deviation": 0
+   },
+   "63": {
+    "Selected topology": "MST",
+    "Time to write data": 1824.0,
+    "Active links": 114,
+    "Bandwidths consumption": 2508.0,
+    "Deviation": 0
+   },
+   "64": {
+    "Selected topology": "MST",
+    "Time to write data": 1224.0,
+    "Active links": 102,
+    "Bandwidths consumption": 2244.0,
+    "Deviation": 0
+   },
+   "65": {
+    "Selected topology": "MST",
+    "Time to write data": 2295.0,
+    "Active links": 135,
+    "Bandwidths consumption": 3510.0,
+    "Deviation": 0
+   },
+   "66": {
+    "Selected topology": "MST",
+    "Time to write data": 2394.0,
+    "Active links": 171,
+    "Bandwidths consumption": 4104.0,
+    "Deviation": 0
+   },
+   "67": {
+    "Selected topology": "MST",
+    "Time to write data": 936.0,
+    "Active links": 72,
+    "Bandwidths consumption": 1656.0,
+    "Deviation": 0
+   },
+   "68": {
+    "Selected topology": "RT",
+    "Time to write data": 1989.0,
+    "Active links": 153,
+    "Bandwidths consumption": 5546.25,
+    "Deviation": 0
+   },
+   "69": {
+    "Selected topology": "MST",
+    "Time to write data": 1836.0,
+    "Active links": 108,
+    "Bandwidths consumption": 3024.0,
+    "Deviation": 0
+   },
+   "70": {
+    "Selected topology": "MST",
+    "Time to write data": 546.0,
+    "Active links": 42,
+    "Bandwidths consumption": 924.0,
+    "Deviation": 0
+   },
+   "71": {
+    "Selected topology": "RT",
+    "Time to write data": 2193.0,
+    "Active links": 129,
+    "Bandwidths consumption": 3966.75,
+    "Deviation": 0
+   },
+   "72": {
+    "Selected topology": "MST",
+    "Time to write data": 1782.0,
+    "Active links": 162,
+    "Bandwidths consumption": 3240.0,
+    "Deviation": 0
+   },
+   "73": {
+    "Selected topology": "MST",
+    "Time to write data": 2736.0,
+    "Active links": 171,
+    "Bandwidths consumption": 3762.0,
+    "Deviation": 0
+   },
+   "74": {
+    "Selected topology": "MST",
+    "Time to write data": 1584.0,
+    "Active links": 99,
+    "Bandwidths consumption": 1980.0,
+    "Deviation": 0
+   },
+   "75": {
+    "Selected topology": "MST",
+    "Time to write data": 2100.0,
+    "Active links": 150,
+    "Bandwidths consumption": 3450.0,
+    "Deviation": 0
+   },
+   "76": {
+    "Selected topology": "MST",
+    "Time to write data": 1404.0,
+    "Active links": 78,
+    "Bandwidths consumption": 1560.0,
+    "Deviation": 0
+   },
+   "77": {
+    "Selected topology": "RT",
+    "Time to write data": 1296.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2744.2799999999997,
+    "Deviation": 0
+   },
+   "78": {
+    "Selected topology": "MST",
+    "Time to write data": 2544.0,
+    "Active links": 159,
+    "Bandwidths consumption": 3180.0,
+    "Deviation": 0
+   },
+   "79": {
+    "Selected topology": "MST",
+    "Time to write data": 1092.0,
+    "Active links": 84,
+    "Bandwidths consumption": 2184.0,
+    "Deviation": 0
+   },
+   "80": {
+    "Selected topology": "RT",
+    "Time to write data": 663.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1644.75,
+    "Deviation": 0
+   },
+   "81": {
+    "Selected topology": "RT",
+    "Time to write data": 1995.0,
+    "Active links": 105,
+    "Bandwidths consumption": 2646.0,
+    "Deviation": 0
+   },
+   "82": {
+    "Selected topology": "MST",
+    "Time to write data": 1200.0,
+    "Active links": 120,
+    "Bandwidths consumption": 2400.0,
+    "Deviation": 0
+   },
+   "83": {
+    "Selected topology": "MST",
+    "Time to write data": 2448.0,
+    "Active links": 153,
+    "Bandwidths consumption": 3519.0,
+    "Deviation": 0
+   },
+   "84": {
+    "Selected topology": "MST",
+    "Time to write data": 1395.0,
+    "Active links": 93,
+    "Bandwidths consumption": 2232.0,
+    "Deviation": 0
+   },
+   "85": {
+    "Selected topology": "MST",
+    "Time to write data": 1296.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2268.0,
+    "Deviation": 0
+   },
+   "86": {
+    "Selected topology": "MST",
+    "Time to write data": 627.0,
+    "Active links": 57,
+    "Bandwidths consumption": 1482.0,
+    "Deviation": 0
+   },
+   "87": {
+    "Selected topology": "RT",
+    "Time to write data": 1053.0,
+    "Active links": 81,
+    "Bandwidths consumption": 2818.7999999999997,
+    "Deviation": 0
+   },
+   "88": {
+    "Selected topology": "RT",
+    "Time to write data": 1326.0,
+    "Active links": 102,
+    "Bandwidths consumption": 3608.7599999999998,
+    "Deviation": 0
+   },
+   "89": {
+    "Selected topology": "MST",
+    "Time to write data": 3078.0,
+    "Active links": 171,
+    "Bandwidths consumption": 3762.0,
+    "Deviation": 0
+   },
+   "90": {
+    "Selected topology": "MST",
+    "Time to write data": 816.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1428.0,
+    "Deviation": 0
+   },
+   "91": {
+    "Selected topology": "RT",
+    "Time to write data": 1476.0,
+    "Active links": 123,
+    "Bandwidths consumption": 3202.92,
+    "Deviation": 0
+   },
+   "92": {
+    "Selected topology": "MST",
+    "Time to write data": 1734.0,
+    "Active links": 102,
+    "Bandwidths consumption": 2652.0,
+    "Deviation": 0
+   },
+   "93": {
+    "Selected topology": "MST",
+    "Time to write data": 1368.0,
+    "Active links": 114,
+    "Bandwidths consumption": 2394.0,
+    "Deviation": 0
+   },
+   "94": {
+    "Selected topology": "MST",
+    "Time to write data": 1140.0,
+    "Active links": 114,
+    "Bandwidths consumption": 2394.0,
+    "Deviation": 0
+   },
+   "95": {
+    "Selected topology": "MST",
+    "Time to write data": 2226.0,
+    "Active links": 159,
+    "Bandwidths consumption": 4293.0,
+    "Deviation": 0
+   },
+   "96": {
+    "Selected topology": "MST",
+    "Time to write data": 714.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1275.0,
+    "Deviation": 0
+   },
+   "97": {
+    "Selected topology": "RT",
+    "Time to write data": 2052.0,
+    "Active links": 171,
+    "Bandwidths consumption": 5985.0,
+    "Deviation": 0
+   },
+   "98": {
+    "Selected topology": "MST",
+    "Time to write data": 1419.0,
+    "Active links": 129,
+    "Bandwidths consumption": 3483.0,
+    "Deviation": 0
+   },
+   "99": {
+    "Selected topology": "MST",
+    "Time to write data": 1395.0,
+    "Active links": 93,
+    "Bandwidths consumption": 2604.0,
+    "Deviation": 0
+   },
+   "100": {
+    "Selected topology": "MST",
+    "Time to write data": 1482.0,
+    "Active links": 78,
+    "Bandwidths consumption": 2262.0,
+    "Deviation": 0
+   },
+   "101": {
+    "Selected topology": "RT",
+    "Time to write data": 2964.0,
+    "Active links": 156,
+    "Bandwidths consumption": 3962.4,
+    "Deviation": 0
+   },
+   "102": {
+    "Selected topology": "MST",
+    "Time to write data": 1560.0,
+    "Active links": 120,
+    "Bandwidths consumption": 2640.0,
+    "Deviation": 0
+   },
+   "103": {
+    "Selected topology": "MST",
+    "Time to write data": 288.0,
+    "Active links": 24,
+    "Bandwidths consumption": 600.0,
+    "Deviation": 0
+   },
+   "104": {
+    "Selected topology": "RT",
+    "Time to write data": 1326.0,
+    "Active links": 78,
+    "Bandwidths consumption": 2686.32,
+    "Deviation": 0
+   },
+   "105": {
+    "Selected topology": "RT",
+    "Time to write data": 1755.0,
+    "Active links": 117,
+    "Bandwidths consumption": 3714.75,
+    "Deviation": 0
+   },
+   "106": {
+    "Selected topology": "MST",
+    "Time to write data": 2214.0,
+    "Active links": 123,
+    "Bandwidths consumption": 3321.0,
+    "Deviation": 0
+   },
+   "107": {
+    "Selected topology": "MST",
+    "Time to write data": 1440.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2520.0,
+    "Deviation": 0
+   },
+   "108": {
+    "Selected topology": "RT",
+    "Time to write data": 810.0,
+    "Active links": 54,
+    "Bandwidths consumption": 1973.16,
+    "Deviation": 0
+   },
+   "109": {
+    "Selected topology": "RT",
+    "Time to write data": 2160.0,
+    "Active links": 180,
+    "Bandwidths consumption": 5990.400000000001,
+    "Deviation": 0
+   },
+   "110": {
+    "Selected topology": "MST",
+    "Time to write data": 1815.0,
+    "Active links": 165,
+    "Bandwidths consumption": 3960.0,
+    "Deviation": 0
+   },
+   "111": {
+    "Selected topology": "MST",
+    "Time to write data": 330.0,
+    "Active links": 30,
+    "Bandwidths consumption": 810.0,
+    "Deviation": 0
+   },
+   "112": {
+    "Selected topology": "RT",
+    "Time to write data": 1512.0,
+    "Active links": 84,
+    "Bandwidths consumption": 2116.8,
+    "Deviation": 0
+   },
+   "113": {
+    "Selected topology": "RT",
+    "Time to write data": 2397.0,
+    "Active links": 141,
+    "Bandwidths consumption": 4265.25,
+    "Deviation": 0
+   },
+   "114": {
+    "Selected topology": "MST",
+    "Time to write data": 1683.0,
+    "Active links": 153,
+    "Bandwidths consumption": 3672.0,
+    "Deviation": 0
+   },
+   "115": {
+    "Selected topology": "MST",
+    "Time to write data": 264.0,
+    "Active links": 24,
+    "Bandwidths consumption": 696.0,
+    "Deviation": 0
+   },
+   "116": {
+    "Selected topology": "RT",
+    "Time to write data": 2565.0,
+    "Active links": 171,
+    "Bandwidths consumption": 5429.25,
+    "Deviation": 0
+   },
+   "117": {
+    "Selected topology": "MST",
+    "Time to write data": 1980.0,
+    "Active links": 165,
+    "Bandwidths consumption": 3300.0,
+    "Deviation": 0
+   },
+   "118": {
+    "Selected topology": "MST",
+    "Time to write data": 1596.0,
+    "Active links": 84,
+    "Bandwidths consumption": 2352.0,
+    "Deviation": 0
+   },
+   "119": {
+    "Selected topology": "RT",
+    "Time to write data": 1617.0,
+    "Active links": 147,
+    "Bandwidths consumption": 3675.0,
+    "Deviation": 0
+   },
+   "120": {
+    "Selected topology": "MST",
+    "Time to write data": 1824.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2208.0,
+    "Deviation": 0
+   },
+   "121": {
+    "Selected topology": "MST",
+    "Time to write data": 3192.0,
+    "Active links": 168,
+    "Bandwidths consumption": 3864.0,
+    "Deviation": 0
+   },
+   "122": {
+    "Selected topology": "MST",
+    "Time to write data": 1344.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2400.0,
+    "Deviation": 0
+   },
+   "123": {
+    "Selected topology": "MST",
+    "Time to write data": 756.0,
+    "Active links": 42,
+    "Bandwidths consumption": 1134.0,
+    "Deviation": 0
+   },
+   "124": {
+    "Selected topology": "RT",
+    "Time to write data": 1692.0,
+    "Active links": 141,
+    "Bandwidths consumption": 4720.68,
+    "Deviation": 0
+   },
+   "125": {
+    "Selected topology": "MST",
+    "Time to write data": 2394.0,
+    "Active links": 126,
+    "Bandwidths consumption": 3276.0,
+    "Deviation": 0
+   },
+   "126": {
+    "Selected topology": "MST",
+    "Time to write data": 810.0,
+    "Active links": 54,
+    "Bandwidths consumption": 1458.0,
+    "Deviation": 0
+   },
+   "127": {
+    "Selected topology": "RT",
+    "Time to write data": 663.0,
+    "Active links": 51,
+    "Bandwidths consumption": 1275.0,
+    "Deviation": 0
+   },
+   "128": {
+    "Selected topology": "RT",
+    "Time to write data": 2655.0,
+    "Active links": 177,
+    "Bandwidths consumption": 6621.570000000001,
+    "Deviation": 0
+   },
+   "129": {
+    "Selected topology": "MST",
+    "Time to write data": 2622.0,
+    "Active links": 138,
+    "Bandwidths consumption": 3174.0,
+    "Deviation": 0
+   },
+   "130": {
+    "Selected topology": "MST",
+    "Time to write data": 684.0,
+    "Active links": 57,
+    "Bandwidths consumption": 1482.0,
+    "Deviation": 0
+   },
+   "131": {
+    "Selected topology": "RT",
+    "Time to write data": 1242.0,
+    "Active links": 69,
+    "Bandwidths consumption": 2188.68,
+    "Deviation": 0
+   },
+   "132": {
+    "Selected topology": "RT",
+    "Time to write data": 2112.0,
+    "Active links": 132,
+    "Bandwidths consumption": 4026.0,
+    "Deviation": 0
+   },
+   "133": {
+    "Selected topology": "MST",
+    "Time to write data": 1485.0,
+    "Active links": 135,
+    "Bandwidths consumption": 2835.0,
+    "Deviation": 0
+   },
+   "134": {
+    "Selected topology": "MST",
+    "Time to write data": 1974.0,
+    "Active links": 141,
+    "Bandwidths consumption": 2820.0,
+    "Deviation": 0
+   },
+   "135": {
+    "Selected topology": "MST",
+    "Time to write data": 1290.0,
+    "Active links": 129,
+    "Bandwidths consumption": 2580.0,
+    "Deviation": 0
+   },
+   "136": {
+    "Selected topology": "MST",
+    "Time to write data": 756.0,
+    "Active links": 54,
+    "Bandwidths consumption": 1242.0,
+    "Deviation": 0
+   },
+   "137": {
+    "Selected topology": "RT",
+    "Time to write data": 3078.0,
+    "Active links": 171,
+    "Bandwidths consumption": 5258.25,
+    "Deviation": 0
+   },
+   "138": {
+    "Selected topology": "MST",
+    "Time to write data": 1530.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2610.0,
+    "Deviation": 0
+   },
+   "139": {
+    "Selected topology": "RT",
+    "Time to write data": 1935.0,
+    "Active links": 129,
+    "Bandwidths consumption": 4031.25,
+    "Deviation": 0
+   },
+   "140": {
+    "Selected topology": "MST",
+    "Time to write data": 3456.0,
+    "Active links": 192,
+    "Bandwidths consumption": 4224.0,
+    "Deviation": 0
+   },
+   "141": {
+    "Selected topology": "MST",
+    "Time to write data": 900.0,
+    "Active links": 75,
+    "Bandwidths consumption": 1950.0,
+    "Deviation": 0
+   },
+   "142": {
+    "Selected topology": "RT",
+    "Time to write data": 546.0,
+    "Active links": 39,
+    "Bandwidths consumption": 1228.5,
+    "Deviation": 0
+   },
+   "143": {
+    "Selected topology": "RT",
+    "Time to write data": 2184.0,
+    "Active links": 156,
+    "Bandwidths consumption": 5655.0,
+    "Deviation": 0
+   },
+   "144": {
+    "Selected topology": "MST",
+    "Time to write data": 1944.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2268.0,
+    "Deviation": 0
+   },
+   "145": {
+    "Selected topology": "MST",
+    "Time to write data": 1131.0,
+    "Active links": 87,
+    "Bandwidths consumption": 1914.0,
+    "Deviation": 0
+   },
+   "146": {
+    "Selected topology": "RT",
+    "Time to write data": 2448.0,
+    "Active links": 153,
+    "Bandwidths consumption": 5246.37,
+    "Deviation": 0
+   },
+   "147": {
+    "Selected topology": "MST",
+    "Time to write data": 3072.0,
+    "Active links": 192,
+    "Bandwidths consumption": 4224.0,
+    "Deviation": 0
+   },
+   "148": {
+    "Selected topology": "MST",
+    "Time to write data": 1023.0,
+    "Active links": 93,
+    "Bandwidths consumption": 2325.0,
+    "Deviation": 0
+   },
+   "149": {
+    "Selected topology": "MST",
+    "Time to write data": 840.0,
+    "Active links": 60,
+    "Bandwidths consumption": 1440.0,
+    "Deviation": 0
+   },
+   "150": {
+    "Selected topology": "RT",
+    "Time to write data": 1767.0,
+    "Active links": 93,
+    "Bandwidths consumption": 3452.16,
+    "Deviation": 0
+   },
+   "151": {
+    "Selected topology": "MST",
+    "Time to write data": 1833.0,
+    "Active links": 141,
+    "Bandwidths consumption": 2961.0,
+    "Deviation": 0
+   },
+   "152": {
+    "Selected topology": "MST",
+    "Time to write data": 1596.0,
+    "Active links": 84,
+    "Bandwidths consumption": 2016.0,
+    "Deviation": 0
+   },
+   "153": {
+    "Selected topology": "RT",
+    "Time to write data": 1599.0,
+    "Active links": 123,
+    "Bandwidths consumption": 3869.58,
+    "Deviation": 0
+   },
+   "154": {
+    "Selected topology": "MST",
+    "Time to write data": 1935.0,
+    "Active links": 129,
+    "Bandwidths consumption": 3354.0,
+    "Deviation": 0
+   },
+   "155": {
+    "Selected topology": "MST",
+    "Time to write data": 1116.0,
+    "Active links": 93,
+    "Bandwidths consumption": 1953.0,
+    "Deviation": 0
+   },
+   "156": {
+    "Selected topology": "MST",
+    "Time to write data": 2376.0,
+    "Active links": 132,
+    "Bandwidths consumption": 3300.0,
+    "Deviation": 0
+   },
+   "157": {
+    "Selected topology": "MST",
+    "Time to write data": 2268.0,
+    "Active links": 126,
+    "Bandwidths consumption": 2772.0,
+    "Deviation": 0
+   },
+   "158": {
+    "Selected topology": "MST",
+    "Time to write data": 2016.0,
+    "Active links": 126,
+    "Bandwidths consumption": 2646.0,
+    "Deviation": 0
+   },
+   "159": {
+    "Selected topology": "MST",
+    "Time to write data": 900.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2070.0,
+    "Deviation": 0
+   },
+   "160": {
+    "Selected topology": "RT",
+    "Time to write data": 3078.0,
+    "Active links": 171,
+    "Bandwidths consumption": 4589.64,
+    "Deviation": 0
+   },
+   "161": {
+    "Selected topology": "MST",
+    "Time to write data": 2244.0,
+    "Active links": 132,
+    "Bandwidths consumption": 2904.0,
+    "Deviation": 0
+   },
+   "162": {
+    "Selected topology": "MST",
+    "Time to write data": 570.0,
+    "Active links": 30,
+    "Bandwidths consumption": 630.0,
+    "Deviation": 0
+   },
+   "163": {
+    "Selected topology": "RT",
+    "Time to write data": 2793.0,
+    "Active links": 147,
+    "Bandwidths consumption": 4593.75,
+    "Deviation": 0
+   },
+   "164": {
+    "Selected topology": "MST",
+    "Time to write data": 1548.0,
+    "Active links": 129,
+    "Bandwidths consumption": 2709.0,
+    "Deviation": 0
+   },
+   "165": {
+    "Selected topology": "MST",
+    "Time to write data": 2565.0,
+    "Active links": 135,
+    "Bandwidths consumption": 2970.0,
+    "Deviation": 0
+   },
+   "166": {
+    "Selected topology": "MST",
+    "Time to write data": 1536.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2496.0,
+    "Deviation": 0
+   },
+   "167": {
+    "Selected topology": "MST",
+    "Time to write data": 3024.0,
+    "Active links": 168,
+    "Bandwidths consumption": 4200.0,
+    "Deviation": 0
+   },
+   "168": {
+    "Selected topology": "MST",
+    "Time to write data": 936.0,
+    "Active links": 72,
+    "Bandwidths consumption": 1800.0,
+    "Deviation": 0
+   },
+   "169": {
+    "Selected topology": "RT",
+    "Time to write data": 396.0,
+    "Active links": 33,
+    "Bandwidths consumption": 997.92,
+    "Deviation": 0
+   },
+   "170": {
+    "Selected topology": "RT",
+    "Time to write data": 1584.0,
+    "Active links": 99,
+    "Bandwidths consumption": 2874.96,
+    "Deviation": 0
+   },
+   "171": {
+    "Selected topology": "MST",
+    "Time to write data": 1188.0,
+    "Active links": 108,
+    "Bandwidths consumption": 3024.0,
+    "Deviation": 0
+   },
+   "172": {
+    "Selected topology": "MST",
+    "Time to write data": 2430.0,
+    "Active links": 162,
+    "Bandwidths consumption": 4050.0,
+    "Deviation": 0
+   },
+   "173": {
+    "Selected topology": "MST",
+    "Time to write data": 1920.0,
+    "Active links": 120,
+    "Bandwidths consumption": 3000.0,
+    "Deviation": 0
+   },
+   "174": {
+    "Selected topology": "MST",
+    "Time to write data": 1824.0,
+    "Active links": 114,
+    "Bandwidths consumption": 2622.0,
+    "Deviation": 0
+   },
+   "175": {
+    "Selected topology": "MST",
+    "Time to write data": 2856.0,
+    "Active links": 168,
+    "Bandwidths consumption": 3528.0,
+    "Deviation": 0
+   },
+   "176": {
+    "Selected topology": "MST",
+    "Time to write data": 1716.0,
+    "Active links": 132,
+    "Bandwidths consumption": 3036.0,
+    "Deviation": 0
+   },
+   "177": {
+    "Selected topology": "MST",
+    "Time to write data": 2340.0,
+    "Active links": 156,
+    "Bandwidths consumption": 3744.0,
+    "Deviation": 0
+   },
+   "178": {
+    "Selected topology": "MST",
+    "Time to write data": 1935.0,
+    "Active links": 129,
+    "Bandwidths consumption": 3096.0,
+    "Deviation": 0
+   },
+   "179": {
+    "Selected topology": "MST",
+    "Time to write data": 1350.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2610.0,
+    "Deviation": 0
+   },
+   "180": {
+    "Selected topology": "RT",
+    "Time to write data": 1377.0,
+    "Active links": 81,
+    "Bandwidths consumption": 2384.64,
+    "Deviation": 0
+   },
+   "181": {
+    "Selected topology": "RT",
+    "Time to write data": 1989.0,
+    "Active links": 153,
+    "Bandwidths consumption": 4590.0,
+    "Deviation": 0
+   },
+   "182": {
+    "Selected topology": "MST",
+    "Time to write data": 1998.0,
+    "Active links": 111,
+    "Bandwidths consumption": 2553.0,
+    "Deviation": 0
+   },
+   "183": {
+    "Selected topology": "MST",
+    "Time to write data": 2964.0,
+    "Active links": 156,
+    "Bandwidths consumption": 4212.0,
+    "Deviation": 0
+   },
+   "184": {
+    "Selected topology": "MST",
+    "Time to write data": 1386.0,
+    "Active links": 99,
+    "Bandwidths consumption": 2178.0,
+    "Deviation": 0
+   },
+   "185": {
+    "Selected topology": "MST",
+    "Time to write data": 2214.0,
+    "Active links": 123,
+    "Bandwidths consumption": 2583.0,
+    "Deviation": 0
+   },
+   "186": {
+    "Selected topology": "MST",
+    "Time to write data": 1248.0,
+    "Active links": 96,
+    "Bandwidths consumption": 2400.0,
+    "Deviation": 0
+   },
+   "187": {
+    "Selected topology": "MST",
+    "Time to write data": 1920.0,
+    "Active links": 120,
+    "Bandwidths consumption": 3480.0,
+    "Deviation": 0
+   },
+   "188": {
+    "Selected topology": "MST",
+    "Time to write data": 1512.0,
+    "Active links": 108,
+    "Bandwidths consumption": 2592.0,
+    "Deviation": 0
+   },
+   "189": {
+    "Selected topology": "MST",
+    "Time to write data": 1131.0,
+    "Active links": 87,
+    "Bandwidths consumption": 2436.0,
+    "Deviation": 0
+   },
+   "190": {
+    "Selected topology": "RT",
+    "Time to write data": 2109.0,
+    "Active links": 111,
+    "Bandwidths consumption": 2913.75,
+    "Deviation": 0
+   },
+   "191": {
+    "Selected topology": "MST",
+    "Time to write data": 1440.0,
+    "Active links": 90,
+    "Bandwidths consumption": 2160.0,
+    "Deviation": 0
+   },
+   "192": {
+    "Selected topology": "RT",
+    "Time to write data": 891.0,
+    "Active links": 81,
+    "Bandwidths consumption": 2569.32,
+    "Deviation": 0
+   },
+   "193": {
+    "Selected topology": "RT",
+    "Time to write data": 2448.0,
+    "Active links": 153,
+    "Bandwidths consumption": 4957.2,
+    "Deviation": 0
+   },
+   "194": {
+    "Selected topology": "MST",
+    "Time to write data": 1170.0,
+    "Active links": 117,
+    "Bandwidths consumption": 2457.0,
+    "Deviation": 0
+   },
+   "195": {
+    "Selected topology": "MST",
+    "Time to write data": 1110.0,
+    "Active links": 111,
+    "Bandwidths consumption": 2775.0,
+    "Deviation": 0
+   },
+   "196": {
+    "Selected topology": "MST",
+    "Time to write data": 1008.0,
+    "Active links": 72,
+    "Bandwidths consumption": 1584.0,
+    "Deviation": 0
+   },
+   "197": {
+    "Selected topology": "RT",
+    "Time to write data": 585.0,
+    "Active links": 45,
+    "Bandwidths consumption": 1497.6000000000001,
+    "Deviation": 0
+   },
+   "198": {
+    "Selected topology": "RT",
+    "Time to write data": 1656.0,
+    "Active links": 138,
+    "Bandwidths consumption": 4769.28,
+    "Deviation": 0
+   },
+   "199": {
+    "Selected topology": "MST",
+    "Time to write data": 1872.0,
+    "Active links": 144,
+    "Bandwidths consumption": 3744.0,
+    "Deviation": 0
+   }
+  }
+ }
+}

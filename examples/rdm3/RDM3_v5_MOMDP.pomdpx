@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pomdpx version="1.0" id="rdm3momdp"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="pomdpx.xsd">
+	 <Description>A problem based on RDM simulator with 3 objectives. Seed 380843 Config ID MST_8_58
+	 </Description>
+	 <Discount>0.9</Discount>
+	 <Variable>
+		  <StateVar vnamePrev="x_0" vnameCurr="x_1"
+			fullyObs="true">
+			  <ValueEnum>X1 X2 X3 X4</ValueEnum>
+		  </StateVar>
+		  <StateVar vnamePrev="y_0" vnameCurr="y_1">
+			  <ValueEnum>Y1 Y2</ValueEnum>
+		  </StateVar>
+		  <ObsVar vname="obs_sensor">
+			  <ValueEnum>O1 O2 O3 O4 O5 O6 O7 O8 O9 O10 O11 O12 O13 O14 O15 O16</ValueEnum>
+		  </ObsVar>
+		  <ActionVar vname="action_rdm">
+			  <ValueEnum>MST RT</ValueEnum>
+		  </ActionVar>
+		  <RewardVar vname="reward_rdm" />
+	 </Variable>
+	 <InitialStateBelief>
+	 <CondProb>
+			<Var>x_0</Var>
+			  <Parent>null</Parent>
+			  <Parameter type="TBL">
+					<Entry>
+						<Instance>-</Instance>
+						<ProbTable>1 0 0 0</ProbTable>
+					</Entry>
+		  </Parameter>
+	 </CondProb>
+	 <CondProb>
+		  <Var>y_0</Var>
+		  <Parent>null</Parent>
+		  <Parameter type="TBL">
+			  <Entry>
+				  <Instance>-</Instance>
+				  <ProbTable>uniform</ProbTable>
+			  </Entry>
+		  </Parameter>
+	 </CondProb>
+  </InitialStateBelief>
+  <StateTransitionFunction>
+	  <CondProb>
+		  <Var>x_1</Var>
+		  <Parent>action_rdm x_0 y_0</Parent>
+		  <Parameter type="TBL">
+			  <Entry>
+				  <Instance>MST * * -</Instance>
+				  <ProbTable>0.872900124 0.027278129 0.096796845 0.003024901</ProbTable>
+			  </Entry>
+			  <Entry>
+				  <Instance>RT * * -</Instance>
+				  <ProbTable>0.619146006 0.085399449 0.259641873 0.035812672</ProbTable>
+			  </Entry>
+	   </Parameter>
+   </CondProb>
+   <CondProb>
+	   <Var>y_1</Var>
+	   <Parent>action_rdm x_0 y_0</Parent>
+	   <Parameter>
+		   <Entry>
+			   <Instance>MST * * -</Instance>
+			   <ProbTable>0.37254902 0.62745098</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT * * -</Instance>
+			   <ProbTable>0.722222222 0.277777778</ProbTable>
+		   </Entry>
+	   </Parameter>
+   </CondProb>
+</StateTransitionFunction>
+<ObsFunction>
+   <CondProb>
+	   <Var>obs_sensor</Var>
+	   <Parent>action_rdm x_1 y_1</Parent>
+	   <Parameter type="TBL">
+		   <Entry>
+			   <Instance>MST X1 Y1 -</Instance>
+			   <ProbTable>0.105 0.595 0.045 0.255 0 0 0 0 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X1 Y2 -</Instance>
+			   <ProbTable>0.255 0.045 0.595 0.105 0 0 0 0 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X2 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0.105 0.595 0.045 0.255 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X2 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0.255 0.045 0.595 0.105 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X3 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0.105 0.595 0.045 0.255 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X3 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0.255 0.045 0.595 0.105 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X4 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0 0 0 0 0.105 0.595 0.045 0.255</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>MST X4 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0 0 0 0 0.255 0.045 0.595 0.105</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X1 Y1 -</Instance>
+			   <ProbTable>0.1275 0.7225 0.0225 0.1275 0 0 0 0 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X1 Y2 -</Instance>
+			   <ProbTable>0.1275 0.0225 0.7225 0.1275 0 0 0 0 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X2 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0.1275 0.7225 0.0225 0.1275 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X2 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0.1275 0.0225 0.7225 0.1275 0 0 0 0 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X3 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0.1275 0.7225 0.0225 0.1275 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X3 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0.1275 0.0225 0.7225 0.1275 0 0 0 0</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X4 Y1 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0 0 0 0 0.1275 0.7225 0.0225 0.1275</ProbTable>
+		   </Entry>
+		   <Entry>
+			   <Instance>RT X4 Y2 -</Instance>
+			   <ProbTable>0 0 0 0 0 0 0 0 0 0 0 0 0.1275 0.0225 0.7225 0.1275</ProbTable>
+		   </Entry>
+		</Parameter>
+	</CondProb>
+</ObsFunction>
+<RewardFunction>
+	<Func>
+		<Var>reward_rdm</Var>
+		<Parent>action_rdm x_0 y_0</Parent>
+		<Parameter type="TBL">
+			<Entry>
+				 <Instance>MST X1 Y1</Instance>
+				 <ValueTable>97 97 86</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X1 Y2</Instance>
+				 <ValueTable>60 60 10</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X2 Y1</Instance>
+				 <ValueTable>85 40 80</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X2 Y2</Instance>
+				 <ValueTable>70 10 10</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X3 Y1</Instance>
+				 <ValueTable>30 80 80</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X3 Y2</Instance>
+				 <ValueTable>10 60 10</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X4 Y1</Instance>
+				 <ValueTable>30 30 83</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>MST X4 Y2</Instance>
+				 <ValueTable>3 3 3</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X1 Y1</Instance>
+				 <ValueTable>80 87 100</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X1 Y2</Instance>
+				 <ValueTable>85 83 20</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X2 Y1</Instance>
+				 <ValueTable>60 10 60</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X2 Y2</Instance>
+				 <ValueTable>80 18 20</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X3 Y1</Instance>
+				 <ValueTable>10 66 68</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X3 Y2</Instance>
+				 <ValueTable>40 75 40</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X4 Y1</Instance>
+				 <ValueTable>11 10 56</ValueTable>
+			</Entry>
+			<Entry>
+				 <Instance>RT X4 Y2</Instance>
+				 <ValueTable>10 10 10</ValueTable>
+			</Entry>
+		</Parameter>
+	</Func>
+</RewardFunction>
+</pomdpx>

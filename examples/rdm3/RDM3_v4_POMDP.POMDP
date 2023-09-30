@@ -1,0 +1,240 @@
+# Problem based on RDM Simulator
+# Seed 380843 Config ID MST_8_58
+
+discount: 0.9
+values: reward
+states: S1 S2 S3 S4 S5 S6 S7 S8
+actions: MST RT
+observations: O1 O2 O3 O4 O5 O6 O7 O8 O9 O10 O11 O12 O13 O14 O15 O16
+
+T: MST : S1 : S1 0.325198						
+T: MST : S1 : S2 0.547702
+T: MST : S1 : S3 0.010162
+T: MST : S1 : S4 0.017116
+T: MST : S1 : S5 0.036062
+T: MST : S1 : S6 0.060735
+T: MST : S1 : S7 0.001127
+T: MST : S1 : S8 0.001898
+T: MST : S2 : S1 0.325198						
+T: MST : S2 : S2 0.547702
+T: MST : S2 : S3 0.010162
+T: MST : S2 : S4 0.017116
+T: MST : S2 : S5 0.036062
+T: MST : S2 : S6 0.060735
+T: MST : S2 : S7 0.001127
+T: MST : S2 : S8 0.001898
+T: MST : S3 : S1 0.325198						
+T: MST : S3 : S2 0.547702
+T: MST : S3 : S3 0.010162
+T: MST : S3 : S4 0.017116
+T: MST : S3 : S5 0.036062
+T: MST : S3 : S6 0.060735
+T: MST : S3 : S7 0.001127
+T: MST : S3 : S8 0.001898
+T: MST : S4 : S1 0.325198						
+T: MST : S4 : S2 0.547702
+T: MST : S4 : S3 0.010162
+T: MST : S4 : S4 0.017116
+T: MST : S4 : S5 0.036062
+T: MST : S4 : S6 0.060735
+T: MST : S4 : S7 0.001127
+T: MST : S4 : S8 0.001898
+T: MST : S5 : S1 0.325198						
+T: MST : S5 : S2 0.547702
+T: MST : S5 : S3 0.010162
+T: MST : S5 : S4 0.017116
+T: MST : S5 : S5 0.036062
+T: MST : S5 : S6 0.060735
+T: MST : S5 : S7 0.001127
+T: MST : S5 : S8 0.001898
+T: MST : S6 : S1 0.325198						
+T: MST : S6 : S2 0.547702
+T: MST : S6 : S3 0.010162
+T: MST : S6 : S4 0.017116
+T: MST : S6 : S5 0.036062
+T: MST : S6 : S6 0.060735
+T: MST : S6 : S7 0.001127
+T: MST : S6 : S8 0.001898
+T: MST : S7 : S1 0.325198						
+T: MST : S7 : S2 0.547702
+T: MST : S7 : S3 0.010162
+T: MST : S7 : S4 0.017116
+T: MST : S7 : S5 0.036062
+T: MST : S7 : S6 0.060735
+T: MST : S7 : S7 0.001127
+T: MST : S7 : S8 0.001898
+T: MST : S8 : S1 0.325198						
+T: MST : S8 : S2 0.547702
+T: MST : S8 : S3 0.010162
+T: MST : S8 : S4 0.017116
+T: MST : S8 : S5 0.036062
+T: MST : S8 : S6 0.060735
+T: MST : S8 : S7 0.001127
+T: MST : S8 : S8 0.001898
+
+T: RT : S1 : S1 0.447161					
+T: RT : S1 : S2 0.171985
+T: RT : S1 : S3 0.061677
+T: RT : S1 : S4 0.023722
+T: RT : S1 : S5 0.187519
+T: RT : S1 : S6 0.072123
+T: RT : S1 : S7 0.025865	
+T: RT : S1 : S8 0.009948
+T: RT : S2 : S1 0.447161					
+T: RT : S2 : S2 0.171985
+T: RT : S2 : S3 0.061677
+T: RT : S2 : S4 0.023722
+T: RT : S2 : S5 0.187519
+T: RT : S2 : S6 0.072123
+T: RT : S2 : S7 0.025865	
+T: RT : S2 : S8 0.009948
+T: RT : S3 : S1 0.447161					
+T: RT : S3 : S2 0.171985
+T: RT : S3 : S3 0.061677
+T: RT : S3 : S4 0.023722
+T: RT : S3 : S5 0.187519
+T: RT : S3 : S6 0.072123
+T: RT : S3 : S7 0.025865	
+T: RT : S3 : S8 0.009948
+T: RT : S4 : S1 0.447161					
+T: RT : S4 : S2 0.171985
+T: RT : S4 : S3 0.061677
+T: RT : S4 : S4 0.023722
+T: RT : S4 : S5 0.187519
+T: RT : S4 : S6 0.072123
+T: RT : S4 : S7 0.025865	
+T: RT : S4 : S8 0.009948
+T: RT : S5 : S1 0.447161					
+T: RT : S5 : S2 0.171985
+T: RT : S5 : S3 0.061677
+T: RT : S5 : S4 0.023722
+T: RT : S5 : S5 0.187519
+T: RT : S5 : S6 0.072123
+T: RT : S5 : S7 0.025865	
+T: RT : S5 : S8 0.009948
+T: RT : S6 : S1 0.447161					
+T: RT : S6 : S2 0.171985
+T: RT : S6 : S3 0.061677
+T: RT : S6 : S4 0.023722
+T: RT : S6 : S5 0.187519
+T: RT : S6 : S6 0.072123
+T: RT : S6 : S7 0.025865	
+T: RT : S6 : S8 0.009948
+T: RT : S7 : S1 0.447161					
+T: RT : S7 : S2 0.171985
+T: RT : S7 : S3 0.061677
+T: RT : S7 : S4 0.023722
+T: RT : S7 : S5 0.187519
+T: RT : S7 : S6 0.072123
+T: RT : S7 : S7 0.025865	
+T: RT : S7 : S8 0.009948
+T: RT : S8 : S1 0.447161					
+T: RT : S8 : S2 0.171985
+T: RT : S8 : S3 0.061677
+T: RT : S8 : S4 0.023722
+T: RT : S8 : S5 0.187519
+T: RT : S8 : S6 0.072123
+T: RT : S8 : S7 0.025865	
+T: RT : S8 : S8 0.009948
+
+O: MST : S1 : O1 0.105
+O: MST : S1 : O2 0.595
+O: MST : S1 : O3 0.045
+O: MST : S1 : O4 0.255
+
+O: MST : S2 : O1 0.255
+O: MST : S2 : O2 0.045
+O: MST : S2 : O3 0.595
+O: MST : S2 : O4 0.105
+
+O: MST : S3 : O5 0.105
+O: MST : S3 : O6 0.595
+O: MST : S3 : O7 0.045
+O: MST : S3 : O8 0.255
+
+O: MST : S4 : O5 0.255
+O: MST : S4 : O6 0.045
+O: MST : S4 : O7 0.595
+O: MST : S4 : O8 0.105
+
+
+O: MST : S5 : O9 0.105
+O: MST : S5 : O10 0.595
+O: MST : S5 : O11 0.045
+O: MST : S5 : O12 0.255
+
+O: MST : S6 : O9 0.255
+O: MST : S6 : O10 0.045
+O: MST : S6 : O11 0.595
+O: MST : S6 : O12 0.105
+
+O: MST : S7 : O13 0.105
+O: MST : S7 : O14 0.595
+O: MST : S7 : O15 0.045
+O: MST : S7 : O16 0.255
+
+O: MST : S8 : O13 0.255
+O: MST : S8 : O14 0.045
+O: MST : S8 : O15 0.595
+O: MST : S8 : O16 0.105
+
+O: RT : S1 : O1 0.1275
+O: RT : S1 : O2 0.7225
+O: RT : S1 : O3 0.0225
+O: RT : S1 : O4 0.1275
+
+O: RT : S2 : O1 0.1275
+O: RT : S2 : O2 0.0225
+O: RT : S2 : O3 0.7225
+O: RT : S2 : O4 0.1275
+
+O: RT : S3 : O5 0.1275
+O: RT : S3 : O6 0.7225
+O: RT : S3 : O7 0.0225
+O: RT : S3 : O8 0.1275
+
+O: RT : S4 : O5 0.1275
+O: RT : S4 : O6 0.0225
+O: RT : S4 : O7 0.7225
+O: RT : S4 : O8 0.1275
+
+O: RT : S5 : O9 0.1275
+O: RT : S5 : O10 0.7225
+O: RT : S5 : O11 0.0225
+O: RT : S5 : O12 0.1275
+
+O: RT : S6 : O9 0.1275
+O: RT : S6 : O10 0.0225
+O: RT : S6 : O11 0.7225
+O: RT : S6 : O12 0.1275
+
+O: RT : S7 : O13 0.1275
+O: RT : S7 : O14 0.7225
+O: RT : S7 : O15 0.0225
+O: RT : S7 : O16 0.1275
+
+O: RT : S8 : O13 0.1275
+O: RT : S8 : O14 0.0225
+O: RT : S8 : O15 0.7225
+O: RT : S8 : O16 0.1275
+
+R: MST : S1 : * : * 85 85 85 
+R: MST : S2 : * : * -6 -6 -9
+R: MST : S3 : * : * -1 -3 -1
+R: MST : S4 : * : * -6 -9 -9
+R: MST : S5 : * : * -3 -1 -1
+R: MST : S6 : * : * -9 -6 -9
+R: MST : S7 : * : * -3 -3 -1
+R: MST : S8 : * : * -9 -9 -9  
+
+R: RT : S1 : * : * 80 80 80
+R: RT : S2 : * : * -1 -1 -3
+R: RT : S3 : * : * -6 -9 -6
+R: RT : S4 : * : * -1 -3 -3
+R: RT : S5 : * : * -9 -6 -6
+R: RT : S6 : * : * -3 -1 -3
+R: RT : S7 : * : * -9 -9 -6
+R: RT : S8 : * : * -3 -3 -3
+
+
+

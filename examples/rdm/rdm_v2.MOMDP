@@ -1,0 +1,179 @@
+# Problem based on RDM Simulator
+# S1=(X1, Y1) S2=(X1, Y2) S3=(X2, Y1) S4=(X2, Y2) S5=(X3, Y1) S6=(X3, Y2) S7=(X4, Y1) S8=(X4, Y2)
+# X1 = (MC_T, MP_T) X2= (MC_T, MP_F) X3= (MC_F, MP_T) X4= (MC_F, MP_F)
+# Y1 = MR_T, Y2 = MR_F
+
+discount: 0.9
+values: reward
+Xstates: X1 X2 X3 X4
+Ystates: Y1 Y2
+actions: MST RT
+observations: ANL_L ANL_M ANL_H
+
+Tx: MST : X1 : Y1 : X1 0.81
+Tx: MST : X1 : Y1 : X2 0.09
+Tx: MST : X1 : Y1 : X3 0.09
+Tx: MST : X1 : Y1 : X4 0.01
+Tx: MST : X1 : Y2 : X1 0.748			
+Tx: MST : X1 : Y2 : X2 0.132
+Tx: MST : X1 : Y2 : X3 0.102
+Tx: MST : X1 : Y2 : X4 0.018
+Tx: MST : X2 : Y1 : X1 0.8464			
+Tx: MST : X2 : Y1 : X2 0.0736
+Tx: MST : X2 : Y1 : X3 0.0736
+Tx: MST : X2 : Y1 : X4 0.0064
+Tx: MST : X2 : Y2 : X1 0.783						
+Tx: MST : X2 : Y2 : X2 0.117
+Tx: MST : X2 : Y2 : X3 0.087
+Tx: MST : X2 : Y2 : X4 0.013
+Tx: MST : X3 : Y1 : X1 0.748			
+Tx: MST : X3 : Y1 : X2 0.102
+Tx: MST : X3 : Y1 : X3 0.132
+Tx: MST : X3 : Y1 : X4 0.018
+Tx: MST : X3 : Y2 : X1 0.6889				
+Tx: MST : X3 : Y2 : X2 0.1411	
+Tx: MST : X3 : Y2 : X3 0.1411	
+Tx: MST : X3 : Y2 : X4 0.0289
+Tx: MST : X4 : Y1 : X1 0.783			
+Tx: MST : X4 : Y1 : X2 0.087
+Tx: MST : X4 : Y1 : X3 0.117
+Tx: MST : X4 : Y1 : X4 0.013
+Tx: MST : X4 : Y2 : X1 0.7225			
+Tx: MST : X4 : Y2 : X2 0.1275	
+Tx: MST : X4 : Y2 : X3 0.1275	
+Tx: MST : X4 : Y2 : X4 0.0225	
+Tx: RT : X1 : Y1 : X1 0.7052			
+Tx: RT : X1 : Y1 : X2 0.1548
+Tx: RT : X1 : Y1 : X3 0.1148
+Tx: RT : X1 : Y1 : X4 0.0252
+Tx: RT : X1 : Y2 : X1 0.63						
+Tx: RT : X1 : Y2 : X2 0.21
+Tx: RT : X1 : Y2 : X3 0.12
+Tx: RT : X1 : Y2 : X4 0.04
+Tx: RT : X2 : Y1 : X1 0.7392			
+Tx: RT : X2 : Y1 : X2 0.1408
+Tx: RT : X2 : Y1 : X3 0.1008
+Tx: RT : X2 : Y1 : X4 0.0192
+Tx: RT : X2 : Y2 : X1 0.6622						
+Tx: RT : X2 : Y2 : X2 0.1978
+Tx: RT : X2 : Y2 : X3 0.1078
+Tx: RT : X2 : Y2 : X4 0.0322
+Tx: RT : X3 : Y1 : X1 0.584			
+Tx: RT : X3 : Y1 : X2 0.146
+Tx: RT : X3 : Y1 : X3 0.216
+Tx: RT : X3 : Y1 : X4 0.054
+Tx: RT : X3 : Y2 : X1 0.5183						
+Tx: RT : X3 : Y2 : X2 0.1917
+Tx: RT : X3 : Y2 : X3 0.2117
+Tx: RT : X3 : Y2 : X4 0.0783
+Tx: RT : X4 : Y1 : X1 0.615			
+Tx: RT : X4 : Y1 : X2 0.135
+Tx: RT : X4 : Y1 : X3 0.205
+Tx: RT : X4 : Y1 : X4 0.045
+Tx: RT : X4 : Y2 : X1 0.5475						
+Tx: RT : X4 : Y2 : X2 0.1825
+Tx: RT : X4 : Y2 : X3 0.2025
+Tx: RT : X4 : Y2 : X4 0.0675 
+
+
+Ty: MST : X1 : Y1 : Y1 0.9100
+Ty: MST : X1 : Y1 : Y2 0.0900
+Ty: MST : X1 : Y2 : Y1 0.9300
+Ty: MST : X1 : Y2 : Y2 0.0700		
+Ty: MST : X2 : Y1 : Y1 0.8900
+Ty: MST : X2 : Y1 : Y2 0.1100
+Ty: MST : X2 : Y2 : Y1 0.9100
+Ty: MST : X2 : Y2 : Y2 0.0900		
+Ty: MST : X3 : Y1 : Y1 0.9300
+Ty: MST : X3 : Y1 : Y2 0.0700
+Ty: MST : X3 : Y2 : Y1 0.9500
+Ty: MST : X3 : Y2 : Y2 0.0500		
+Ty: MST : X4 : Y1 : Y1 0.9100
+Ty: MST : X4 : Y1 : Y2 0.0900
+Ty: MST : X4 : Y2 : Y1 0.9300
+Ty: MST : X4 : Y2 : Y2 0.0700		
+
+Ty: RT : X1 : Y1 : Y1 0.9500	
+Ty: RT : X1 : Y1 : Y2 0.0500
+Ty: RT : X1 : Y2 : Y1 0.9700		
+Ty: RT : X1 : Y2 : Y2 0.0300			
+Ty: RT : X2 : Y1 : Y1 0.9300	
+Ty: RT : X2 : Y1 : Y2 0.0700
+Ty: RT : X2 : Y2 : Y1 0.9500		
+Ty: RT : X2 : Y2 : Y2 0.0500			
+Ty: RT : X3 : Y1 : Y1 0.9700	
+Ty: RT : X3 : Y1 : Y2 0.0300 
+Ty: RT : X3 : Y2 : Y1 0.9900	
+Ty: RT : X3 : Y2 : Y2 0.0100					
+Ty: RT : X4 : Y1 : Y1 0.9500	
+Ty: RT : X4 : Y1 : Y2 0.0500
+Ty: RT : X4 : Y2 : Y1 0.9700		
+Ty: RT : X4 : Y2 : Y2 0.0300	 	
+
+
+O: MST : X1 : Y1 : ANL_L 0.06
+O: MST : X1 : Y1 : ANL_M 0.16
+O: MST : X1 : Y1 : ANL_H 0.78
+O: MST : X1 : Y2 : ANL_L 0.12
+O: MST : X1 : Y2 : ANL_M 0.20
+O: MST : X1 : Y2 : ANL_H 0.68
+O: MST : X2 : Y1 : ANL_L 0.06
+O: MST : X2 : Y1 : ANL_M 0.16
+O: MST : X2 : Y1 : ANL_H 0.78
+O: MST : X2 : Y2 : ANL_L 0.12
+O: MST : X2 : Y2 : ANL_M 0.20
+O: MST : X2 : Y2 : ANL_H 0.68
+O: MST : X3 : Y1 : ANL_L 0.06
+O: MST : X3 : Y1 : ANL_M 0.16
+O: MST : X3 : Y1 : ANL_H 0.78
+O: MST : X3 : Y2 : ANL_L 0.12
+O: MST : X3 : Y2 : ANL_M 0.20
+O: MST : X3 : Y2 : ANL_H 0.68
+O: MST : X4 : Y1 : ANL_L 0.06
+O: MST : X4 : Y1 : ANL_M 0.16
+O: MST : X4 : Y1 : ANL_H 0.78
+O: MST : X4 : Y2 : ANL_L 0.12
+O: MST : X4 : Y2 : ANL_M 0.20
+O: MST : X4 : Y2 : ANL_H 0.68
+O: RT : X1 : Y1 : ANL_L 0.05
+O: RT : X1 : Y1 : ANL_M 0.15
+O: RT : X1 : Y1 : ANL_H 0.80
+O: RT : X1 : Y2 : ANL_L 0.10
+O: RT : X1 : Y2 : ANL_M 0.18
+O: RT : X1 : Y2 : ANL_H 0.72
+O: RT : X2 : Y1 : ANL_L 0.05
+O: RT : X2 : Y1 : ANL_M 0.15
+O: RT : X2 : Y1 : ANL_H 0.80
+O: RT : X2 : Y2 : ANL_L 0.10
+O: RT : X2 : Y2 : ANL_M 0.18
+O: RT : X2 : Y2 : ANL_H 0.72
+O: RT : X3 : Y1 : ANL_L 0.05
+O: RT : X3 : Y1 : ANL_M 0.15
+O: RT : X3 : Y1 : ANL_H 0.80
+O: RT : X3 : Y2 : ANL_L 0.10
+O: RT : X3 : Y2 : ANL_M 0.18
+O: RT : X3 : Y2 : ANL_H 0.72
+O: RT : X4 : Y1 : ANL_L 0.05
+O: RT : X4 : Y1 : ANL_M 0.15
+O: RT : X4 : Y1 : ANL_H 0.80
+O: RT : X4 : Y2 : ANL_L 0.10
+O: RT : X4 : Y2 : ANL_M 0.18
+O: RT : X4 : Y2 : ANL_H 0.72
+
+R: MST : X1 : Y1 : * : * : * 39.0
+R: MST : X1 : Y2 : * : * : * 40.0
+R: MST : X2 : Y1 : * : * : * 38.0
+R: MST : X2 : Y2 : * : * : * 16.0
+R: MST : X3 : Y1 : * : * : * 43.0
+R: MST : X3 : Y2 : * : * : * 28.0
+R: MST : X4 : Y1 : * : * : * 13.0
+R: MST : X4 : Y2 : * : * : * 1.0
+
+R: RT : X1 : Y1 : * : * : * 43
+R: RT : X1 : Y2 : * : * : * 31
+R: RT : X2 : Y1 : * : * : * 28
+R: RT : X2 : Y2 : * : * : * 26
+R: RT : X3 : Y1 : * : * : * 28
+R: RT : X3 : Y2 : * : * : * 16
+R: RT : X4 : Y1 : * : * : * 23
+R: RT : X4 : Y2 : * : * : * 11

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1" type="value" model="ModelName" xsi:noNamespaceSchemaLocation="policyx.xsd">
+   <AlphaVector vectorLength="3" numObsValue="1" numVectors="5">
+      <Vector action="1" obsValue="0">0.54 2.2 10.0</Vector>
+      <Vector action="1" obsValue="0">0.1634 163.4 10.0</Vector>
+      <Vector action="2" obsValue="0">0.6908000000000001 690.8 10.0</Vector>
+      <Vector action="1" obsValue="0">0.2954 295.4 10.0</Vector>
+      <Vector action="2" obsValue="0">0.12974 1297.4 10.0</Vector>
+   </AlphaVector>
+</Policy>

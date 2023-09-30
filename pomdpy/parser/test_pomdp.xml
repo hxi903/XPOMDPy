@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1" type="value" model="ModelName" xsi:noNamespaceSchemaLocation="policyx.xsd">
+   <AlphaVector vectorLength="2" numObsValue="1" numVectors="2">
+      <Vector action="1" obsValue="0">0.5 0.7</Vector>
+      <Vector action="1" obsValue="0">0.125 0.317</Vector>
+   </AlphaVector>
+</Policy>
