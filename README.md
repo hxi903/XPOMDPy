@@ -1,7 +1,8 @@
-## POMDPy
+## XPOMDPy (Extended POMDPy)
 ![Python27](https://img.shields.io/badge/python-2.7-blue.svg)  ![Python35](https://img.shields.io/badge/python-3.5-blue.svg)
 
-This work was a suplementary material of a research paper submitted to ACM TAAS, contains an extended POMPDy framework (https://github.com/pemami4911/POMDPy) for implementing discrete action/state POMDPs and MOMDPs in Python.
+This work was a suplementary material of a research paper submitted to ACM TAAS, contains an extended POMPDy framework (https://github.com/pemami4911/POMDPy) for implementing discrete action/state POMDPs and MOMDPs in Python using single/scalar reward and multiple/vector reward. 
+The current version is unstable and we are still working on the documentation.
 
 ## Original POMDPy Supported Solvers ##
 
